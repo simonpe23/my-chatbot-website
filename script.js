@@ -5,7 +5,7 @@ async function sendMessage() {
     const chatBox = document.getElementById("chat-box");
     chatBox.innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;
 
-    const response = await fetch("https://api.openai.com/v1/chat/completions", {
+const response = await fetch("https://twilight-wave-3777.tcsimon-p.workers.dev/", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
