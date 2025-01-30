@@ -1,0 +1,21 @@
+# Ignore macOS system files
+.DS_Store
+.Trash/
+.config/
+.cache/
+.dropbox/
+Library/
+Documents/
+Google Drive/
+Downloads/
+Music/
+Movies/
+Pictures/
+Public/
+Sites/
+
+# Ignore all hidden files
+.*/
+
+# Ignore unnecessary logs
+*.log
